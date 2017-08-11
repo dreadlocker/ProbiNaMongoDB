@@ -1,0 +1,14 @@
+{
+    "name": "ProbiNaMongoDB",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "app": "nodemon app.js",
+        "data": "nodemon data.js"
+    },
+    "dependencies": {
+        "mongodb": "^2.2.31",
+        "nodemon": "^1.11.0"
+    }
+}
